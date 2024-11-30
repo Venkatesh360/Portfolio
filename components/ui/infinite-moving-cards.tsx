@@ -13,7 +13,7 @@ export const InfiniteMovingCards = ({
   items: {
     id: number,
     tech: string,
-    icon: any
+    icon: JSX.Element
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
