@@ -11,7 +11,6 @@ import Link from "next/link";
 
 export const FloatingNav = ({
   navItems,
-  className,
 }: {
   navItems: {
     name: string;

@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
   items,
@@ -11,9 +11,9 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    id:number,
-    tech:string,
-    icon:any
+    id: number,
+    tech: string,
+    icon: any
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -25,7 +25,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
-  }, []);
+  }, [addAnimation]);
   const [start, setStart] = useState(false);
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
@@ -95,11 +95,11 @@ export const InfiniteMovingCards = ({
             key={item.id}
           >
             <blockquote >
-              
+
               <div className="relative z-20 ">
-                  <span className="flex text-center items-center justify-center gap-x-[6px]  h-full leading-[1.6] text-gray-100 font-[400]  ">
-                    {item.icon} {item.tech}
-                  </span>
+                <span className="flex text-center items-center justify-center gap-x-[6px]  h-full leading-[1.6] text-gray-100 font-[400]  ">
+                  {item.icon} {item.tech}
+                </span>
               </div>
             </blockquote>
           </li>
