@@ -1,6 +1,5 @@
 import { projects } from "@/data/data";
 import "./Projects.css";
-import { IconType } from "react-icons/lib";
 
 // Define the type for the icons prop
 type IconProps = {
