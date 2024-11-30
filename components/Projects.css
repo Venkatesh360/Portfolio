@@ -1,0 +1,5 @@
+p{
+  overflow: scroll;
+  scrollbar-width: none;
+  cursor: pointer;
+}
