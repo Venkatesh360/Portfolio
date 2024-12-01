@@ -112,6 +112,7 @@ export const projects = [
   {
     id: 1,
     title: "Good Movies",
+    link: "https://github.com/Venkatesh360/good-movies",
     description:
       "Good Movies is a movie recommendation site with a Next.js 14 frontend and a Flask backend. User data, including likes, dislikes, and recommendation details, are stored in Firebase. The backend utilises a content-based recommender system to adjust recommendations based on a user's preferences, ensuring personalized movie suggestions.",
     imgSrc:
@@ -127,6 +128,7 @@ export const projects = [
   {
     id: 2,
     title: "Content Based Recommender",
+    link: "https://www.kaggle.com/code/venkateshkashyap/content-based-recommender-v2",
     description:
       "A content-based recommender system was developed by filtering data based on runtime, vote count, vote average, and popularity to ensure a high-quality dataset. Feature engineering involved extracting and processing genre and keyword information, which were then combined into a unified 'soup' for each movie. Using CountVectorizer from Scikit-Learn, these feature soups were transformed into a token count matrix. Cosine similarity was calculated between movies based on their token count matrices to recommend similar titles. The tech stack included Python, Pandas, Scikit-Learn, and the TMDB dataset.",
     imgSrc: "https://images5.alphacoders.com/445/445155.jpg",
@@ -139,6 +141,7 @@ export const projects = [
   {
     id: 3,
     title: "Social Networking Backend",
+    link: "https://github.com/Venkatesh360/Social-Networking-Backend",
     description:
       "User registration and authentication were implemented using Firebase Authentication to enable secure signup and login. Discussion posts support CRUD functionality with text, images, and hashtags, allowing users to comment on and like posts, as well as like or reply to comments. Post search functionality was implemented using hashtags to enhance search and discovery. Data security is ensured with tokenized access keys for all API interactions. Specific API routes for user and post-related interactions were defined following REST principles, and API testing was conducted using Postman. The tech stack includes Next.js, Firebase, Firestore, Firebase Authentication, and RESTful APIs.",
     imgSrc: "https://img.freepik.com/free-vector/social-media-network_74855-4575.jpg?t=st=1731591084~exp=1731594684~hmac=423944decad2b21c5e313f8fd42d4647327239f9b2f222972c710d125e8452d0&w=1060",
@@ -151,6 +154,7 @@ export const projects = [
   {
     id: 4,
     title: "Cryptography DLL",
+    link: "https://github.com/Venkatesh360/cryptographyDll_project",
     description:
       "An easy-to-use DLL file made for educational purposes and to simplify working with cryptography algorithms. The DLL is divided into 5 modules, each containing algorithms for specific use.",
     imgSrc: "https://hacklido.com/assets/files/2023-11-21/1700602915-510550-post-quantum-algorithm-sike-broken-by-single-core-cpu.jpg",

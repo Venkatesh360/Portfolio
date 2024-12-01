@@ -10,19 +10,20 @@ type IconProps = {
 // Define the type for the ProjectCard props
 interface ProjectCardProps {
   title: string;
+  link: string;
   description: string;
   imgSrc: string;
   icons: IconProps[];
 }
 
-function ProjectCard({ title, description, imgSrc, icons }: ProjectCardProps) {
+function ProjectCard({ title, link, description, imgSrc, icons }: ProjectCardProps) {
   return (
     <div className="border-gray-200 border-2 max-w-xl rounded-lg flex-grow flex-col flex items-center justify-center bg-[#4b0150]/40 overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
       <div className="w-full h-auto max-h-[200px] overflow-hidden">
         <img src={imgSrc} alt={title} className="w-full h-full object-cover transform transition-transform duration-300 hover:scale-105" />
       </div>
       <div className="p-4 mb-auto">
-        <h2 className="text-lg font-semibold text-white hover:text-gray-400 transition-colors duration-200">{title}</h2>
+        <a href={link} target="_blank" className="text-lg font-semibold text-white hover:text-gray-400 transition-colors duration-200">{title}</a>
         <p className="text-sm text-gray-300 h-16 leading-snug">{description}</p>
         <div className="flex justify-start items-center gap-4 mt-2">
           {icons.map(({ id, icon }) => (
