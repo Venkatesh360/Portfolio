@@ -2,12 +2,12 @@
 
 @keyframes shrinkHeight {
   to {
-    height: 50vh;
+    height: 30vh;
   }
 }
 @media (max-width: 500px) {
   .main-cont {
-    animation: shrinkHeight 1s ease-in-out 3s forwards;
+    animation: shrinkHeight 1s ease-in-out 2.5s forwards;
   }
 }
 
