@@ -18,8 +18,8 @@ function Hero() {
                         </div>
                     </div>
                 </div>
-                <div className="box flex justify-center -mb-6 sm:mb-0  w-[375px] md:max-w-xl h-auto bg-gray-900/80 items-center p-2 rounded-lg">
-                    <p className=" text-[0.9rem] sm:text-[1rem] text-center tracking-normal" style={{ fontWeight: 300 }} >
+                <div className="box flex flex-grow justify-center -mb-6 sm:mb-0  max-w-[375px] md:max-w-xl h-auto bg-gray-900/80 items-center p-2 rounded-lg">
+                    <p className="text-[0.9rem] sm:text-[1rem] text-center tracking-normal" style={{ fontWeight: 300 }} >
                         Hi <span className="wave">👋</span>, I am Venkatesh Kashyap. I am a fullstack software developer based in Guwahati, Assam
                     </p>
                 </div>

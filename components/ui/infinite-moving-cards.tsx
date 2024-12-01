@@ -97,7 +97,7 @@ export const InfiniteMovingCards = ({
             <blockquote >
 
               <div className="relative z-20 ">
-                <span className="flex text-center items-center justify-center gap-x-[6px]  h-full leading-[1.6] text-gray-100 font-[400]  ">
+                <span className="flex text-center items-center justify-center gap-x-[6px] text-sm  h-full leading-[1.6] text-gray-100 font-[300]  ">
                   {item.icon} {item.tech}
                 </span>
               </div>

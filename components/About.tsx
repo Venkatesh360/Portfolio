@@ -10,13 +10,13 @@ export default function About() {
     <div className="w-full h-fit flex items-center justify-center mb-[3vh] sm:mb-[10vh] ">
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-4 p-6 h-fit lg:max-h-[35rem] max-w-[75rem]">
         <Details />
-        <div className="hidden sm:flex flex-col h-full w-full max-w-[600px] gap-12 lg:gap-4">
-          <div className="flex h-[270px] w-full shadow-sm shadow-white/70 border-t border-white/70 text-white overflow-hidden px-2 bg-purple-950/20 rounded-lg">
-            <div className="flex flex-col h-full flex-grow max-w-[240px] justify-center items-start leading-loose tracking-wider pl-3">
-              <h1 className="w-fit text-2xl text-left font-bold">
+        <div className="flex flex-col h-full w-full max-w-[600px] gap-12 lg:gap-4">
+          <div className="flex h-[250px] sm:h-[270px] w-full shadow-sm shadow-white/70 border-t border-white/70 text-white overflow-hidden px-2 bg-purple-950/20 rounded-lg">
+            <div className="flex flex-col h-full flex-grow max-w-[240px] justify-center items-start leading-loose tracking-wider pl-1 sm:pl-3">
+              <h1 className="w-fit text-xl sm:text-2xl text-left font-bold">
                 My
               </h1>
-              <h1 className="w-fit text-4xl text-left font-bold text-purple-300">
+              <h1 className="w-fit text-3xl sm:text-4xl text-left font-bold text-purple-300">
                 Tech Stack
               </h1>
             </div>

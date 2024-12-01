@@ -34,7 +34,7 @@ function Details() {
                     I&apos;m a Full Stack Software Engineer based in Guwahati&lsquo; I constantly try and improve myself by learning new technologies and applying them to my projects. Currently I&apos;m working as a <b className="font-semibold text-white">Research Assistant Programmer</b> under <span><a className="font-semibold text-white" href="https://www.linkedin.com/in/ahana-ghosh-psychologist/" target="_blank" rel="noopener noreferrer">Ahana Ghosh</a></span> assisting with data collection and processing using Python.
                 </span>
                 <span>
-                    In my free time&lsquo;I love cooking, watching sci-fi movies&lsquo;and contributing to open-source projects.
+                    In my free time, I love cooking, watching sci-fi movies&lsquo;and contributing to open-source projects.
                 </span>
             </div>
             <div className="flex gap-5">
