@@ -2,7 +2,7 @@ import './Hero.css';
 
 function Hero() {
     return (
-        <div className="flex items-center justify-center h-screen w-full ">
+        <div className="main-cont flex items-center justify-center  w-full ">
             <div className="flex flex-col items-center justify-center font-Karla font-[800] text-white">
                 <div className="container flex flex-col items-center justify-center">
                     <div className="create text-[10vh] sm:text-[20vw] md:text-[150px] lg:text-[200px] leading-none">

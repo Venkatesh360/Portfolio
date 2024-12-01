@@ -7,7 +7,7 @@ import { techList } from "../data/data";
 
 export default function About() {
   return (
-    <div className="w-full h-fit flex items-center justify-center mb-[10vh]">
+    <div className="w-full h-fit flex items-center justify-center mb-[3vh] sm:mb-[10vh] ">
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-4 p-6 h-fit lg:max-h-[35rem] max-w-[75rem]">
         <Details />
         <div className="hidden sm:flex flex-col h-full w-full max-w-[600px] gap-12 lg:gap-4">

@@ -2,6 +2,9 @@ import React from 'react';
 import { FaCopy, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { IoLogoGithub } from 'react-icons/io';
 
+
+
+
 function Details() {
     const email = 'venkateshkashyap23@gmail.com'; // Replace with your actual email address
 
@@ -15,8 +18,8 @@ function Details() {
 
     const downloadResume = () => {
         const link = document.createElement('a');
-        link.href = '../public/Venkatesh_Kashyap\'s_Resume.pdf'; // Replace with the path to your resume file
-        link.download = "Venkatesh_Kashyap_Resume.pdf"; // Replace with the desired file name
+        link.href = "https://drive.google.com/file/d/1b4942l_SwjDKzO36l7sp_m7UQctmj5cE/view?usp=sharing"; // Replace with the path to your resume file
+        link.download = "Venkateshe Kashyaps Resume"; // Replace with the desired file name
         link.click();
     };
 

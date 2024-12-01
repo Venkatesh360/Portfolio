@@ -38,7 +38,7 @@ function ProjectCard({ title, description, imgSrc, icons }: ProjectCardProps) {
 
 function Projects() {
   return (
-    <div className="flex flex-col items-center p-6 justify-center" id="projects">
+    <div className="flex flex-col items-center p-6 justify-center " id="projects">
       <h1 className="flex flex-wrap text-white mb-[10vh] font-bold text-5xl justify-center items-center text-center tracking-wide w-full">
         <span className="hidden sm:block">A Small Selection of </span>
         <span className="w-full sm:w-fit text-nowrap font-bold ml-3 text-purple-300"> Recent Projects</span>
