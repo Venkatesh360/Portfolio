@@ -18,7 +18,7 @@ function Details() {
 
     const downloadResume = () => {
         const link = document.createElement('a');
-        link.href = "https://drive.google.com/file/d/1b4942l_SwjDKzO36l7sp_m7UQctmj5cE/view?usp=sharing"; // Replace with the path to your resume file
+        link.href = "https://drive.google.com/file/d/1MPsSlwdf2XS_UAtYsJdRZ1NVMJXMHA3e/view?usp=sharing"; // Replace with the path to your resume file
         link.download = "Venkateshe Kashyaps Resume"; // Replace with the desired file name
         link.click();
     };
