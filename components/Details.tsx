@@ -32,8 +32,7 @@ function Details() {
             <div className="flex flex-col items-center justify-start w-full text-gray-100 text-[0.9rem] sm:text-[1rem] text-center font-bold lg:leading-normal gap-y-6" style={{ fontWeight: 300 }} >
                 <span>
                     I&apos;m a Full Stack Software Engineer based in Guwahati, I constantly try and improve myself by learning new technologies and applying them to my projects.
-                     Currently I&apos;m working as a <b className="font-semibold text-white">Associate Software Engineer</b> in <span><a href='https://techvariable.com/about' className="font-semibold mr-2 text-white">TechVariable</a></span> 
-                     working alongside the team to help businesses achieve tangible business results faster.
+        
                 </span>
                 <span>
                     In my free time, I love cooking, watching sci-fi movies and contributing to open-source projects.
